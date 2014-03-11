@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" ng-app="AngularSpringApp">
+<head>
+    <meta charset="utf-8">
+    <title>Service App</title>
+    <link rel="stylesheet" href="resources/others-lib/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="resources/others-lib/bootstrap/css/bootstrap-theme.css"/>
+</head>
+<body>
+<div class="container" ng-controller="EmpCtrl">
+
+    <ul class="list-unstyled" style="font-size: xx-large; text-decoration: none;">
+        <li>
+            <a href="#/employee">Employee Details</a>
+        </li>
+    </ul>
+    <hr class=""/>
+
+    <div ng-view>Your Template Here...</div>
+
+</div>
+
+<script src="resources/others-lib/angular/jquery.js"></script>
+<script src="resources/others-lib/angular/angular.js"></script>
+<script src="resources/others-lib/angular/angular-route.js"></script>
+<script src="resources/others-lib/angular/angular-loader.js"></script>
+<script src="resources/others-lib/angular/angular-cookies.js"></script>
+<script src="resources/others-lib/angular/angular-sanitize.js"></script>
+<script src="resources/my-libs/app.js"></script>
+<script src="resources/my-libs/controllers.js"></script>
+</body>
+</html>

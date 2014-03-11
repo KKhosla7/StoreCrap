@@ -1,0 +1,95 @@
+<div class="alert alert-danger" ng-show="error">{{errorMessage}}</div>
+
+<form class="form-horizontal">
+
+    <div class="form-control">
+        <input type="text" class="col-sm-3" ng-model="store.firstName" placeholder="First Name" required min="3">
+    </div>
+
+
+    <div class="form-control">
+        <input class="col-sm-3" type="text" ng-model="store.lastName" placeholder="Last Name" required min="3">
+    </div>
+
+    <div class="form-control">
+        <input class="col-sm-3" type="text" ng-model="store.designation" placeholder="Designation" required min="1">
+    </div>
+
+    <div class="form-control">
+        <input class="col-sm-3" type="text" ng-model="store.role" placeholder="Role" required min="1">
+    </div>
+
+    <div class="form-control">
+        <button type="reset" class="btn btn-warning">Reset</button>
+        <button type="button" class="btn btn-primary"
+                ng-disabled="!store.firstName || !store.lastName || !store.designation || !store.role"
+                ng-hide="editMode" ng-click="addEmployee(store)">Add Employee
+        </button>
+        <button type="button" class="btn btn-success"
+                ng-disabled="!store.firstName || !store.lastName || !store.designation || !store.role"
+                ng-show="editMode" ng-click="updateEamployeeDetails(store)">Save Employee
+        </button>
+    </div>
+
+</form>
+<div>
+    <hr class="divider"/>
+</div>
+<h3>Employee Entries</h3>
+<div class="input-group" >
+    <span ng-show="employees.length == 0" ng-hide="employees.length > 0">No records found.</span>
+    <input  style="float: right" type="search" placeholder="Search"/>
+    <div class="input-group-btn">
+        <button type="button" class="btn btn-group glyphicon glyphicon-search"> </button>
+    </div>
+</div>
+
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th style="text-align: center; width: 25px;">
+            Id
+        </th>
+        <th style="text-align: center;">
+            First Name
+        </th>
+        <th style="text-align: center;">
+            Last Name
+        </th>
+        <th style="text-align: center;">
+            Designation
+        </th>
+        <th style="text-align: center;">
+            Role
+        </th>
+        <th style="text-align: center;" class="col-sm-2" ng-show="employees.length > 0">
+            Operation(s)
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="employee in employees | orderBy:predicate">
+        <td style="text-align: center;">
+            {{employee.id}}
+        </td>
+        <td class="col-sm-3">
+            {{employee.firstName}}
+        </td>
+        <td class="col-sm-3">
+            {{employee.lastName}}
+        </td>
+        <td class="col-sm-3">
+            {{employee.designation}}
+        </td>
+        <td class="col-sm-3">
+            {{employee.role}}
+        </td>
+        <td style="width: 100px; text-align: center;">
+            <a href="#" class="glyphicon glyphicon-remove" ng-click="deleteEmployee(employee.id)"></a>
+            <button class="btn-link glyphicon glyphicon-edit" ng-click="editEmployeeDetails(employee)"></button>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<button class="btn btn-danger" ng-show="employees.length > 1" ng-click="deleteAllEmployee()">Remove All Employees
+</button>
