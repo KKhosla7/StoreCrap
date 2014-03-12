@@ -9,12 +9,12 @@
                             http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
     <mvc:annotation-driven/>
-    <mvc:resources mapping="/resources/**" location="WEB-INF/static/resources/"/>
+    <mvc:resources mapping="/resources/**" location="WEB-INF/public/"/>
 
     <context:component-scan base-package="kk.spring.samples"/>
 
     <bean id="velocityConfig" class="org.springframework.web.servlet.view.velocity.VelocityConfigurer">
-        <property name="resourceLoaderPath" value="/WEB-INF/static/html/"/>
+        <property name="resourceLoaderPath" value="WEB-INF/public/" />
     </bean>
 
 

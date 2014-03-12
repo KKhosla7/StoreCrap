@@ -14,6 +14,11 @@ apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'eclipse'
 
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+buildDir = 'target'
+
 repositories {
     mavenLocal()
     maven {
@@ -23,11 +28,15 @@ repositories {
 }
 
 dependencies {
-    compile("org.springframework:spring-webmvc:4.0.2.RELEASE")
-    compile("org.springframework:spring-context-support:4.0.2.RELEASE")
-    compile("org.apache.velocity:velocity:1.6.2")
-    compile("com.fasterxml.jackson.core:jackson-databind:2.3.1")
-    compile("org.hibernate:hibernate-core:4.3.1.Final")
-    compile("org.hibernate:hibernate-entitymanager:4.3.1.Final")
-    testCompile("junit:junit:4.11")
+
+    compile "org.springframework:spring-webmvc:4.0.2.RELEASE",
+            "org.springframework:spring-context-support:4.0.2.RELEASE",
+            "org.apache.velocity:velocity:1.6.2",
+            "com.fasterxml.jackson.core:jackson-databind:2.3.1",
+            "org.hibernate:hibernate-core:4.3.1.Final",
+            "org.hibernate:hibernate-entitymanager:4.3.1.Final",
+            "org.hsqldb:hsqldb"
+
+    testCompile "junit:junit:4.11"
+
 }
