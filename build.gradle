@@ -14,9 +14,6 @@ apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'eclipse'
 
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
-
 buildDir = 'target'
 
 repositories {
@@ -28,15 +25,41 @@ repositories {
 }
 
 dependencies {
+    compile (
 
-    compile "org.springframework:spring-webmvc:4.0.2.RELEASE",
+            // --------------- Spring Mvc ------------------------------------
+            "org.springframework:spring-web:4.0.2.RELEASE",
+            "org.springframework:spring-webmvc:4.0.2.RELEASE",
+
+            "org.springframework:spring-orm:4.0.2.RELEASE",
+            "org.springframework:spring-tx:4.0.2.RELEASE",
+
+            // --------------- Spring Velocity Support -----------------------
             "org.springframework:spring-context-support:4.0.2.RELEASE",
+
+            // --------------- Velocity ---------------------------------------
             "org.apache.velocity:velocity:1.6.2",
+
+            // --------------- Spring Security --------------------------------
+            "org.springframework.security:spring-security-web:3.2.1.RELEASE",
+
+            // --------------- Jackson JSON ---------------------------------
             "com.fasterxml.jackson.core:jackson-databind:2.3.1",
+
+            // --------------- Hibernate ------------------------------------
             "org.hibernate:hibernate-core:4.3.1.Final",
             "org.hibernate:hibernate-entitymanager:4.3.1.Final",
-            "org.hsqldb:hsqldb"
 
-    testCompile "junit:junit:4.11"
+            // --------------- Embedded Database -----------------------------
+            "org.hsqldb:hsqldb:2.2.9",
+
+            "commons-dbcp:commons-dbcp:1.4"
+
+    )
+
+    testCompile (
+            "junit:junit:4.11",
+            "org.springframework:spring-test:4.0.2.RELEASE"
+    )
 
 }

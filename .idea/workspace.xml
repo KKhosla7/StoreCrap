@@ -2,46 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="033c634b-8151-4bad-a88c-4c18caee3aa6" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\html\index.html" afterPath="$PROJECT_DIR$/web/WEB-INF/public/index.html" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\html\partials\employee.html" afterPath="$PROJECT_DIR$/web/WEB-INF/public/partials/employee.html" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\my-libs\app.js" afterPath="$PROJECT_DIR$/web/WEB-INF/public/my-libs/app.js" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\my-libs\controllers.js" afterPath="$PROJECT_DIR$/web/WEB-INF/public/my-libs/controllers.js" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\angular-cookies.js" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/angular-cookies.js" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\angular-cookies.min.js" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/angular-cookies.min.js" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\angular-cookies.min.js.map" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/angular-cookies.min.js.map" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\angular-csp.css" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/angular-csp.css" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\angular-loader.js" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/angular-loader.js" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\angular-loader.min.js" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/angular-loader.min.js" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\angular-loader.min.js.map" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/angular-loader.min.js.map" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\angular-route.js" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/angular-route.js" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\angular-route.min.js" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/angular-route.min.js" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\angular-route.min.js.map" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/angular-route.min.js.map" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\angular-sanitize.js" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/angular-sanitize.js" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\angular-sanitize.min.js" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/angular-sanitize.min.js" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\angular-sanitize.min.js.map" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/angular-sanitize.min.js.map" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\angular.js" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/angular.js" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\angular.min.js" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/angular.min.js" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\angular.min.js.gzip" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/angular.min.js.gzip" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\angular.min.js.map" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/angular.min.js.map" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\jquery.js" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/jquery.js" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\jquery.min.js" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/jquery.min.js" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\angular\jquery.min.map" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/angular/jquery.min.map" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\bootstrap\css\bootstrap-theme.css" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/bootstrap/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\bootstrap\css\bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\bootstrap\css\bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\bootstrap\css\bootstrap.css" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/bootstrap/css/bootstrap.css" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\bootstrap\css\bootstrap.css.map" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/bootstrap/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\bootstrap\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/bootstrap/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\bootstrap\js\bootstrap.js" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/bootstrap/js/bootstrap.js" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\bootstrap\js\bootstrap.min.js" afterPath="$PROJECT_DIR$/web/WEB-INF/public/others-lib/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/kk/spring/samples/entity/Entity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_dbcp_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_pool_1_5_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__hsqldb_2_2_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_jdbc_4_0_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_orm_4_0_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_tx_4_0_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/kk/spring/samples/entity/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Store.iml" afterPath="$PROJECT_DIR$/Store.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/spring-conf/webapp-config.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/spring-conf/webapp-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -107,19 +78,114 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="Employee.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kk/spring/samples/domain/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="1" selection-start="913" selection-end="913" vertical-scroll-proportion="0.8071834" vertical-offset="270" max-vertical-offset="799">
+            <state line="5" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2023">
+              <folding>
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1138#1139#0" expanded="true" />
+                <element signature="e#1184#1185#0" expanded="true" />
+                <element signature="e#1222#1223#0" expanded="true" />
+                <element signature="e#1256#1257#0" expanded="true" />
+                <element signature="e#1286#1287#0" expanded="true" />
+                <element signature="e#1332#1333#0" expanded="true" />
+                <element signature="e#1370#1371#0" expanded="true" />
+                <element signature="e#1408#1409#0" expanded="true" />
+                <element signature="e#1442#1443#0" expanded="true" />
+                <element signature="e#1496#1497#0" expanded="true" />
+                <element signature="e#1542#1543#0" expanded="true" />
+                <element signature="e#1576#1577#0" expanded="true" />
+                <element signature="e#1606#1607#0" expanded="true" />
+                <element signature="e#1652#1653#0" expanded="true" />
+                <element signature="e#1690#1691#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="14" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="employee.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/public/partials/employee.html">
+      <file leaf-file-name="Entity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kk/spring/samples/entity/Entity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="155" selection-start="1953" selection-end="1953" vertical-scroll-proportion="-28.76923" vertical-offset="0" max-vertical-offset="2363">
+            <state line="7" column="31" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kk/spring/samples/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="5" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2142">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#800#808#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
+                <element signature="e#1118#1119#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1197#1198#0" expanded="true" />
+                <element signature="e#1237#1238#0" expanded="true" />
+                <element signature="e#1285#1286#0" expanded="true" />
+                <element signature="e#1325#1326#0" expanded="true" />
+                <element signature="e#1362#1363#0" expanded="true" />
+                <element signature="e#1390#1391#0" expanded="true" />
+                <element signature="e#1437#1438#0" expanded="true" />
+                <element signature="e#1471#1472#0" expanded="true" />
+                <element signature="e#1819#1837#0" expanded="true" />
+                <element signature="e#2026#2027#0" expanded="true" />
+                <element signature="e#2062#2063#0" expanded="true" />
+                <element signature="e#2111#2112#0" expanded="true" />
+                <element signature="e#2147#2148#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="56" selection-start="752" selection-end="752" vertical-scroll-proportion="0.25157234" vertical-offset="458" max-vertical-offset="1190">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persistence.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="14" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
@@ -134,15 +200,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/public/my-libs/controllers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="30" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1768">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -152,19 +209,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SiteViewController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kk/spring/samples/controller/SiteViewController.java">
+      <file leaf-file-name="webapp-config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-conf/webapp-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="1" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="48" column="11" selection-start="2300" selection-end="2300" vertical-scroll-proportion="-13.64" vertical-offset="475" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webapp-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-conf/webapp-config.xml">
+      <file leaf-file-name="app-config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-conf/app-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="40" selection-start="1307" selection-end="1307" vertical-scroll-proportion="-13.52" vertical-offset="53" max-vertical-offset="544">
+            <state line="7" column="8" selection-start="310" selection-end="310" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
@@ -338,7 +395,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1394614363140" />
+        <entry key="$PROJECT_DIR$" value="1394619733066" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -438,8 +495,12 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/static/resources/my-libs/app.js" />
         <option value="$PROJECT_DIR$/web/WEB-INF/static/resources/others-lib/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/web/WEB-INF/static/index.html" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/spring-conf/webapp-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/kk/spring/samples/controller/SiteViewController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kk/spring/samples/domain/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kk/spring/samples/entity/Entity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kk/spring/samples/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/spring-conf/webapp-config.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
@@ -452,10 +513,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="59" />
+    <option name="y" value="300" />
+    <option name="width" value="1932" />
+    <option name="height" value="656" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -646,6 +707,14 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -670,6 +739,66 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -754,6 +883,9 @@
       <recent name="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\my-libs" />
       <recent name="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib" />
       <recent name="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static\resources\others-lib\bootstap" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\karan.khosla\Desktop\Spring\spring-boot-master\spring-boot-master\spring-boot-samples\Store\web\WEB-INF\static" />
@@ -1130,17 +1262,21 @@
       <workItem from="1394517585425" duration="31051000" />
       <workItem from="1394613887083" duration="401000" />
       <workItem from="1394614298699" duration="102000" />
-      <workItem from="1394614403243" duration="2257000" />
+      <workItem from="1394614403243" duration="5363000" />
     </task>
     <task id="LOCAL-00001" summary="Learning Stage. :)">
       <created>1394610342821</created>
       <updated>1394610342821</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Learning Stage. :)&#10;Few More edits. :)">
+      <created>1394616964798</created>
+      <updated>1394616964798</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37662000" />
+    <option name="totallyTimeSpent" value="40768000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1163,12 +1299,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="59" y="300" width="1932" height="656" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1183,14 +1320,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24920128" sideWeight="0.5009009" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19914803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1995731" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920128" sideWeight="0.4990991" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39935064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.4990991" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39935064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1247,7 +1384,8 @@
     <MESSAGE value="Some Changes.&#10;Still in Learning Stage. :)" />
     <MESSAGE value="Learning Stage. :)&#10;" />
     <MESSAGE value="Learning Stage. :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learning Stage. :)" />
+    <MESSAGE value="Learning Stage. :)&#10;Few More edits. :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learning Stage. :)&#10;Few More edits. :)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1257,34 +1395,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-conf/webapp-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kk/spring/samples/domain/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="33" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="1515" max-vertical-offset="2023">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/public/my-libs/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="30" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1768">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/public/partials/employee.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="155" selection-start="1953" selection-end="1953" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="2363">
@@ -1500,13 +1610,6 @@
         <state line="55" column="5" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1547" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kk/spring/samples/domain/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="33" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="1515" max-vertical-offset="2023">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/public/others-lib/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="376" column="0" selection-start="5038" selection-end="5038" vertical-scroll-proportion="0.95255476" vertical-offset="5870" max-vertical-offset="119884">
@@ -1521,13 +1624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-conf/app-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="310" selection-end="310" vertical-scroll-proportion="0.22201492" vertical-offset="0" max-vertical-offset="536">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kk/spring/samples/service/EmployeeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="17" selection-start="167" selection-end="167" vertical-scroll-proportion="0.20446736" vertical-offset="0" max-vertical-offset="582">
@@ -1538,13 +1634,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/kk/spring/samples/service/EmployeeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="5" selection-start="673" selection-end="673" vertical-scroll-proportion="-0.13917525" vertical-offset="438" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="14" selection-start="988" selection-end="988" vertical-scroll-proportion="0.7594502" vertical-offset="0" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
@@ -1577,13 +1666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-conf/webapp-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="40" selection-start="1307" selection-end="1307" vertical-scroll-proportion="-13.52" vertical-offset="53" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kk/spring/samples/controller/SiteViewController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="1" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
@@ -1591,9 +1673,124 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-conf/app-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="8" selection-start="310" selection-end="310" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kk/spring/samples/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="5" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2142">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#800#808#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1362#1363#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1471#1472#0" expanded="true" />
+            <element signature="e#1819#1837#0" expanded="true" />
+            <element signature="e#2026#2027#0" expanded="true" />
+            <element signature="e#2062#2063#0" expanded="true" />
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2147#2148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kk/spring/samples/entity/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="31" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kk/spring/samples/domain/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2023">
+          <folding>
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+            <element signature="e#1576#1577#0" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="14" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.0.2.RELEASE/spring-orm-4.0.2.RELEASE.jar!/org/springframework/orm/jpa/LocalContainerEntityManagerFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="16" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.35079727" vertical-offset="288" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-conf/webapp-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="11" selection-start="2300" selection-end="2300" vertical-scroll-proportion="-13.64" vertical-offset="475" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="14" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="1" selection-start="913" selection-end="913" vertical-scroll-proportion="0.8071834" vertical-offset="270" max-vertical-offset="799">
+        <state line="34" column="56" selection-start="752" selection-end="752" vertical-scroll-proportion="0.25157234" vertical-offset="458" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>
