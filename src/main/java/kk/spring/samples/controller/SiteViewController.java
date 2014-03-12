@@ -1,4 +1,4 @@
-package kk.spring.samples.controllers;
+package kk.spring.samples.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,11 +9,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/")
-public class IndexPageController {
+public class SiteViewController {
 
 
     @RequestMapping
     public String getHome() {
         return "index";
     }
+
+    @RequestMapping("partials/employee")
+    public String getPartialPage() {
+        return "partials/employee";
+    }
+
 }

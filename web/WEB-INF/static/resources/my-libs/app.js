@@ -7,7 +7,7 @@ var App = angular.module('AngularSpringApp', ['ngRoute', 'ngCookies', 'ngSanitiz
 // Declare app level module which depends on filters, and services
 App.config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/employee', {
-        templateUrl: 'employee/page',
+        templateUrl: 'partials/employee',
         controller: EmpCtrl
     });
 

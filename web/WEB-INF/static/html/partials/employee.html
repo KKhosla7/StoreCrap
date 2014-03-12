@@ -3,7 +3,11 @@
 <form class="form-horizontal">
 
     <div class="form-control">
-        <input type="text" class="col-sm-3" ng-model="store.firstName" placeholder="First Name" required min="3">
+        <input type="text" class="col-sm-3" ng-model="store.firstName" placeholder="First Name" autofocus required min="3">
+    </div>
+
+    <div class="form-control">
+        <input type="text" class="col-sm-3" ng-model="store.middleName" placeholder="Middle Name" min="3">
     </div>
 
 
@@ -12,23 +16,36 @@
     </div>
 
     <div class="form-control">
+        <input type="number" class="col-sm-1" ng-model="store.age" placeholder="Age" required min="1">
+    </div>
+
+    <div class="form-control">
+        <input type="email" class="col-sm-3" ng-model="store.emailId" placeholder="Email Id" required min="8">
+    </div>
+
+    <div class="form-control">
+        <input type="tel" class="col-sm-3" ng-model="store.contact" placeholder="Contact Number" required min="10">
+    </div>
+
+    <div class="form-control">
         <input class="col-sm-3" type="text" ng-model="store.designation" placeholder="Designation" required min="1">
     </div>
 
     <div class="form-control">
-        <input class="col-sm-3" type="text" ng-model="store.role" placeholder="Role" required min="1">
+        <input class="col-sm-3" type="text" ng-model="store.project" placeholder="Project" min="1">
     </div>
 
     <div class="form-control">
         <button type="reset" class="btn btn-warning">Reset</button>
         <button type="button" class="btn btn-primary"
-                ng-disabled="!store.firstName || !store.lastName || !store.designation || !store.role"
+                ng-disabled="!store.firstName || !store.lastName || !store.designation || !store.project || !store.emailId || !store.age || !store.contact"
                 ng-hide="editMode" ng-click="addEmployee(store)">Add Employee
         </button>
         <button type="button" class="btn btn-success"
-                ng-disabled="!store.firstName || !store.lastName || !store.designation || !store.role"
+                ng-disabled="!store.firstName || !store.lastName || !store.designation || !store.project || !store.emailId || !store.age || !store.contact"
                 ng-show="editMode" ng-click="updateEamployeeDetails(store)">Save Employee
         </button>
+
     </div>
 
 </form>
@@ -36,12 +53,9 @@
     <hr class="divider"/>
 </div>
 <h3>Employee Entries</h3>
-<div class="input-group" >
+<div>
     <span ng-show="employees.length == 0" ng-hide="employees.length > 0">No records found.</span>
-    <input  style="float: right" type="search" placeholder="Search" ng-model="fltr" />
-    <div class="input-group-btn">
-        <button type="button" class="btn btn-group glyphicon glyphicon-search"> </button>
-    </div>
+    <input  style="float: right" type="search" ng-show="employees.length > 0" placeholder="Filter" ng-model="searchText" />
 </div>
 
 <table class="table table-bordered">
@@ -54,35 +68,60 @@
             First Name
         </th>
         <th style="text-align: center;">
+            Middle Name
+        </th>
+        <th style="text-align: center;">
             Last Name
+        </th>
+        <th style="text-align: center;">
+            Age
+        </th>
+        <th style="text-align: center;">
+            Email Id
+        </th>
+        <th style="text-align: center;">
+            Contact Number
         </th>
         <th style="text-align: center;">
             Designation
         </th>
         <th style="text-align: center;">
-            Role
+            Project
         </th>
+
         <th style="text-align: center;" class="col-sm-2" ng-show="employees.length > 0">
             Operation(s)
         </th>
     </tr>
     </thead>
     <tbody>
-    <tr ng-repeat="employee in employees | orderBy:predicate">
-        <td style="text-align: center;">
+    <tr ng-repeat="employee in employees | filter:searchText | orderBy:predicate">
+        <td>
             {{employee.id}}
         </td>
-        <td class="col-sm-3">
+        <td>
             {{employee.firstName}}
         </td>
-        <td class="col-sm-3">
+        <td>
+            {{employee.middleName}}
+        </td>
+        <td>
             {{employee.lastName}}
         </td>
-        <td class="col-sm-3">
+        <td>
+            {{employee.age}}
+        </td>
+        <td>
+            {{employee.emailId}}
+        </td>
+        <td>
+            {{employee.contact}}
+        </td>
+        <td>
             {{employee.designation}}
         </td>
-        <td class="col-sm-3">
-            {{employee.role}}
+        <td>
+            {{employee.project}}
         </td>
         <td style="width: 100px; text-align: center;">
             <a href="#" class="glyphicon glyphicon-remove" ng-click="deleteEmployee(employee.id)"></a>

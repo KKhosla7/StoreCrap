@@ -1,7 +1,7 @@
-package kk.spring.samples.controllers;
+package kk.spring.samples.controller;
 
-import kk.spring.samples.beans.Employee;
-import kk.spring.samples.services.EmployeeService;
+import kk.spring.samples.domain.Employee;
+import kk.spring.samples.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -13,53 +13,47 @@ import java.util.List;
  */
 
 @Controller
-@RequestMapping("/employee")
-public class EmployeeController {
+@RequestMapping("/api")
+public class EmployeeRestController {
 
 
     @Autowired
     private EmployeeService empService;
 
-    @RequestMapping("/employeelist.json")
+    @RequestMapping("/employee/employeelist.json")
     public
     @ResponseBody
     List<Employee> getEmployeeList() {
         return empService.getAllEmployees();
     }
 
-    @RequestMapping(value = "/addEmployee", method = RequestMethod.POST)
+    @RequestMapping(value = "/employee/addEmployee", method = RequestMethod.POST)
     public
     @ResponseBody
     void addEmployeeProfile(@RequestBody Employee employeeProfile) {
         empService.addEmployee(employeeProfile);
     }
 
-    @RequestMapping(value = "/removeEmployee/{employeeId}", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/employee/removeEmployee/{employeeId}", method = RequestMethod.DELETE)
     public
     @ResponseBody
     void removeEmployee(@PathVariable("employeeId") Long employeeId) {
         empService.deleteEmployeeById(employeeId);
     }
 
-    @RequestMapping(value = "/updateEmployeeDetails", method = RequestMethod.PUT)
+    @RequestMapping(value = "/employee/updateEmployeeDetails", method = RequestMethod.PUT)
     public
     @ResponseBody
     void updateRailwayStation(@RequestBody Employee employee) {
         empService.updateEmployeeDetails(employee);
     }
 
-    @RequestMapping(value = "/removeAllEmployees", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/employee/removeAllEmployees", method = RequestMethod.DELETE)
     public
     @ResponseBody
     void removeAllEmployees() {
         empService.deleteAllEmployees();
     }
-
-    @RequestMapping("/page")
-    public String getPartialPage() {
-        return "employee/page";
-    }
-
 }
 
 

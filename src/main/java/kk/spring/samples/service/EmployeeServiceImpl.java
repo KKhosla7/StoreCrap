@@ -1,7 +1,6 @@
-package kk.spring.samples.services.impl;
+package kk.spring.samples.service;
 
-import kk.spring.samples.beans.Employee;
-import kk.spring.samples.services.EmployeeService;
+import kk.spring.samples.domain.Employee;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

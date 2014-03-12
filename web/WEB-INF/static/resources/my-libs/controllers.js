@@ -12,18 +12,22 @@ var EmpCtrl = function ($scope, $http) {
     $scope.editMode = false;
 
     $scope.fetchAllEmployees = function () {
-        $http.get('employee/employeelist.json').success(function (empList) {
+        $http.get('api/employee/employeelist.json').success(function (empList) {
             $scope.employees = empList;
         })
     };
 
     $scope.addEmployee = function (store) {
-        $http.post('employee/addEmployee', store).success(function () {
+        $http.post('api/employee/addEmployee', store).success(function () {
             $scope.fetchAllEmployees();
             $scope.store.firstName = '';
+            $scope.store.middleName = '';
             $scope.store.lastName = '';
+            $scope.store.age = '';
+            $scope.store.contact = '';
+            $scope.store.emailId = '';
             $scope.store.designation = '';
-            $scope.store.role = '';
+            $scope.store.project = '';
         }).error(function () {
             $scope.setError('Could not add a new Employee to Records.');
         });
@@ -32,6 +36,7 @@ var EmpCtrl = function ($scope, $http) {
 
     $scope.editEmployeeDetails = function (store) {
         $scope.resetError();
+
         $scope.store = store;
         $scope.editMode = true;
     };
@@ -39,12 +44,16 @@ var EmpCtrl = function ($scope, $http) {
     $scope.updateEamployeeDetails = function (store) {
         $scope.resetError();
 
-        $http.put('employee/updateEmployeeDetails', store).success(function () {
+        $http.put('api/employee/updateEmployeeDetails', store).success(function () {
             $scope.fetchAllEmployees();
             $scope.store.firstName = '';
+            $scope.store.middleName = '';
             $scope.store.lastName = '';
+            $scope.store.age = '';
+            $scope.store.contact = '';
+            $scope.store.emailId = '';
             $scope.store.designation = '';
-            $scope.store.role = '';
+            $scope.store.project = '';
             $scope.editMode = false;
         }).error(function () {
             $scope.setError('Could not update the existing Employee Record.');
@@ -52,7 +61,7 @@ var EmpCtrl = function ($scope, $http) {
     };
 
     $scope.deleteEmployee = function (employeeId) {
-        $http.delete('employee/removeEmployee/' + employeeId).success(function () {
+        $http.delete('api/employee/removeEmployee/' + employeeId).success(function () {
             $scope.fetchAllEmployees();
         }).error(function () {
             $scope.setError('Could not delete an existing Employee Record.');
@@ -60,7 +69,7 @@ var EmpCtrl = function ($scope, $http) {
     };
 
     $scope.deleteAllEmployee = function () {
-        $http.delete('employee/removeAllEmployees').success(function () {
+        $http.delete('api/employee/removeAllEmployees').success(function () {
             $scope.fetchAllEmployees();
         }).error(function () {
             $scope.setError('Failed to remove all Employees Record.');
@@ -69,7 +78,7 @@ var EmpCtrl = function ($scope, $http) {
     };
 
     $scope.fltr = function() {
-        
+
     };
 
     $scope.resetError = function () {

@@ -1,6 +1,6 @@
-package kk.spring.samples.services;
+package kk.spring.samples.service;
 
-import kk.spring.samples.beans.Employee;
+import kk.spring.samples.domain.Employee;
 
 import java.util.List;
 
